@@ -1,0 +1,31 @@
+{
+    "skills":[
+        {
+        "id":1,
+        "src":"",
+        "title":" ",
+        "description":"In the ever-evolving world of web development, I specialize in crafting immersive and dynamic digital experiences. With a strong command of HTML, CSS, and JavaScript, I bring your vision to life with precision and creativity."
+    }
+    ,
+    {
+        "id":2,
+        "src":"",
+        "title":"",
+        "description":"In the dynamic realm of web development, I blend creativity with technical prowess to build exceptional digital experiences. With a solid foundation in HTML and CSS, I design and structure visually stunning websites. Adding the power of JavaScript, React, and Django, I bring interactivity, responsiveness, and robust functionality to every project."
+    }
+    ,
+    {
+        "id":3,
+        "src":" ",
+        "title":"",
+        "description":"creating intuitive and engaging user experiences is key. Specializing in UI/UX design, I use Figma to bring your ideas to life, ensuring every interaction is seamless and every interface is a visual delight."
+    },
+    {
+        "id":4,
+        "src":" ",
+        "title":" ",
+        "description":"Harnessing the power of WordPress and the precision of Figma, I create visually captivating and highly functional websites that elevate your online presence. My approach ensures that every site is not only beautiful but also user-friendly and easy to manage."
+    }
+]
+    
+}
