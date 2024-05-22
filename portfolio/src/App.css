@@ -1,15 +1,14 @@
 /* global css*/
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    background-color: var(--bg-shade);
+body {
+    background-color: pink; /* Pink background color */
     color: var(--primary);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
-    
 }
+
 h1,
 h2,
 h3,
@@ -52,8 +51,7 @@ p{
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     font-size: 20px;
-    color: pink;
-    background-color: purple;
+   
 }
 .btn-outline-primary{
     color: var(--primary);
@@ -243,7 +241,7 @@ section title ends */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F6F4E8;
+    background-color: #f8f5e4;
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -322,6 +320,7 @@ section title ends */
     justify-content: center;
     align-items: flex-start;
     gap: 33.5px;
+    background: #F6F4E8;
 
 }
 .portfolio--container p{
@@ -357,9 +356,7 @@ section title ends */
     font-size: 13px;
 
 }
-.skills--section--title{
-    padding-bottom: 20px;
-}
+
 .skills--section--description{
     font-size: 12px;
     color: black;
@@ -413,20 +410,99 @@ About me starts*/
   
 }
 
+.about-me-skills {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-end; /* Align buttons to the right */
+}
+
+.about-me-skills > button {
+    border-radius: 8px;
+    background-color: var(--bg-shade);
+    padding: 10px;
+    margin: 10px 0; /* Vertical margin for space between buttons */
+}
+
 .about--section{
-    display: grid;
     padding: 133.3px 85.8px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2,1fr);
+    width: 100%;
 }
 
 .hero--section--content--box--about--section--box{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    width: 100%;  display: flex;
 
 
+} .about-me-skills {
+    display: flex;
+    justify-content: flex-end; /* Align all buttons to the right */
+    align-items: center; /* Align items vertically centered */
 }
+
+.about-me-skills > button {
+    border-radius: 8px;
+    background-color: var(--bg-shade);
+    padding: 10px;
+    margin: 0 10px; /* Horizontal margin for space between buttons */
+}
+
+.hero--section--description {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the button */
+.hero--section--description-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1D3124; /* Darker Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-in, box-shadow 0.3s ease-in; /* Added transitions */
+    margin-right: 10px; /* Add right margin to create space between buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.hero--section--description-btn:hover {
+    background-color: transparent; /* Transparent */
+    color: black;
+    transform: scale(1.05); /* Scale button by 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.hero--section--description-btn-github {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Transparent */
+    color: #1D3124;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-in, box-shadow 0.3s ease-in; /* Added transitions */
+}
+
+.hero--section--description-btn-github:hover {
+    background-color: #1D3124; /* Darker Green */
+    color: white;
+    transform: scale(1.05); /* Scale button by 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Add space between the two buttons */
+.hero--section--description-btn + .hero--section--description-btn-github {
+    margin-left: 10px; /* Add left margin to create space between buttons */
+}
+
+
+
 /* about us ends */
 
 /*portfolio section*/
@@ -437,6 +513,7 @@ About me starts*/
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
+    background: #F6F4E8;
 }
 
 .portfolio--container--box{

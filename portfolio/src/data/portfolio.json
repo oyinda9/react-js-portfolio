@@ -17,23 +17,25 @@
 }
 ,
 {
-    "id":3,
-    "src":"./img/hs.png ",
-    "title":"Front end",
+    "id":2,
+    "src":"./img/img10.jpg",
+    "title":"Backend end",
     "description":"lorem ipsum colour sir amentb, collggsdchFYE",
     "link":"view in GitHub"
-},
+}
+,
 {
-    "id":4,
-    "src":"./img/makeup.png",
-    "title":"UI/UX Desings",
+    "id":2,
+    "src":"./img/img10.jpg",
+    "title":"Backend end",
     "description":"lorem ipsum colour sir amentb, collggsdchFYE",
     "link":"view in GitHub"
-},
+}
+,
 {
-    "id":5,
-    "src":"./img/icon4cws.png",
-    "title":"UI/UX Desings",
+    "id":2,
+    "src":"./img/img10.jpg",
+    "title":"Backend end",
     "description":"lorem ipsum colour sir amentb, collggsdchFYE",
     "link":"view in GitHub"
 }

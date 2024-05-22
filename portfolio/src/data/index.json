@@ -2,29 +2,52 @@
     "skills":[
         {
         "id":1,
-        "src":"",
-        "title":" ",
+        "src":"./img/code.png",
+        "title":" HTML & CSS ",
         "description":"In the ever-evolving world of web development, I specialize in crafting immersive and dynamic digital experiences. With a strong command of HTML, CSS, and JavaScript, I bring your vision to life with precision and creativity."
     }
     ,
     {
-        "id":2,
-        "src":"",
-        "title":"",
-        "description":"In the dynamic realm of web development, I blend creativity with technical prowess to build exceptional digital experiences. With a solid foundation in HTML and CSS, I design and structure visually stunning websites. Adding the power of JavaScript, React, and Django, I bring interactivity, responsiveness, and robust functionality to every project."
-    }
-    ,
-    {
-        "id":3,
-        "src":" ",
-        "title":"",
-        "description":"creating intuitive and engaging user experiences is key. Specializing in UI/UX design, I use Figma to bring your ideas to life, ensuring every interaction is seamless and every interface is a visual delight."
+        "id": 2,
+        "src": "./img/django.png",
+        "title": "Django",
+        "description": "Adding the power of JavaScript, React, and Django, I bring interactivity, responsiveness, and robust functionality to every project."
     },
     {
-        "id":4,
-        "src":" ",
-        "title":" ",
-        "description":"Harnessing the power of WordPress and the precision of Figma, I create visually captivating and highly functional websites that elevate your online presence. My approach ensures that every site is not only beautiful but also user-friendly and easy to manage."
+        "id": 3,
+        "src":" ./img/physics.png",
+        "title": "React",
+        "description": "With the addition of React, I create dynamic and highly responsive user interfaces, ensuring seamless user experiences across all devices."
+    },
+    {
+        "id": 4,
+        "src":" ./img/vue.png",
+        "title":" Vue.js",
+        "description": "Utilizing Vue.js, I build performant and maintainable user interfaces that enhance the user experience with smooth and reactive components."
+    },
+    {
+        "id": 5,
+        "src":" ./img/wordpress.png",
+        "title": "WordPress",
+        "description": "Leveraging the power of WordPress, I create flexible and scalable websites with powerful content management capabilities."
+    },
+    {
+        "id": 6,
+        "src": "./img/bootstrap.png",
+        "title": "Bootstrap",
+        "description": "Using Bootstrap, I develop responsive and mobile-first websites that are visually appealing and highly functional across all devices."
+    },
+    {
+        "id": 7,
+        "src": "./img/python.png",
+        "title": "Python",
+        "description": "With Python, I build powerful backend logic and automation scripts, enabling robust and scalable application development."
+    },
+    {
+        "id": 8,
+        "src": "./img/photoshop.png",
+        "title": "Photoshop",
+        "description": "Mastering Photoshop, I craft visually stunning graphics and designs, elevating the aesthetics of digital experiences."
     }
 ]
     
