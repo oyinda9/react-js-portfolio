@@ -4,9 +4,12 @@ return(
  
     <div>
     <p className="sub--title">Get In Touch</p>
-    <h2>Contact Me</h2>
-    <p className="text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptatum beatae. Optio deserunt assumenda nulla illo quam perspiciatis nihil velit veritati
+    <h2 className="contact--me">Contact Me</h2>
+    <p className="text">
+
+            Got a project in mind, a bug that needs squashing, or just want to chat about the latest in tech? I'm here to help! Whether you need expert advice, a collaborative partner, or just want to share ideas, don't hesitate to reach out.
+
+            Your projects and ideas are important to me. Let's build something amazing together!
     </p>
     </div>
    <form className="contact--form--container">
