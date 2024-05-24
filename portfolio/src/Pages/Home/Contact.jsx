@@ -1,6 +1,7 @@
 function Contactme(){
 return(
  <section id="Contact" className="contact--section">
+ 
     <div>
     <p className="sub--title">Get In Touch</p>
     <h2>Contact Me</h2>
@@ -47,33 +48,19 @@ return(
         </label>
 
         <label htmlFor="choosetopic" className="contact--label">
-            <span className="text-md">Choose a topic</span>
-            <select name="" id="choose-topic" className="contact--input text-md">
-                <option value="">Select one</option>
-                <option value="">Item 1</option>
-                <option value="">Item 2</option>
-                <option value="">Item 3</option>
-            </select>
-
 
             <label htmlFor="message" className="contact--label">
             <span className="text-md">Message</span>
             <textarea
-             className="contact--input text-md" 
+             className="contact--input--textarea text-md" 
              name="message"
               id="mesaage"
-              rows="8"
-
-              
               placeholder="type your message "
         
             />
         </label>
-        <label htmlFor="checkbox">
-            <input type="checkbox"id="checkbox" className="checkbox--label"/>
-            <span className="text-sm"> I accept your terms</span>
-        </label>
-        <div><button className="btn btn-primary contact--form--btn">Submit</button></div>
+    
+        <div><button className="contact--form--btn">Submit</button></div>
            
         </label>
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function NavBar() {
   const h3Style = {
-    fontStyle: 'italic',
+    fontFamily: 'cursive',
     color: 'black',  // Additional styles can be added here if needed
   };
     return (

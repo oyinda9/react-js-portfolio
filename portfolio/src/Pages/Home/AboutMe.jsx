@@ -23,25 +23,14 @@ function Aboutme(){
 
                     
                     
-                    <button className="hero--section--description-btn">Download Cv</button>
-                    <button className="hero--section--description-btn-github">
-                      Visit my Github
+                    <a href="https://drive.google.com/file/d/1tP0D_jGi0u1zc-2VXH1BVpvkT_TBfZY3/view?usp=sharing" download>
+                        <button className="hero--section--description-btn">Download CV</button>
+                        </a>
 
-                    </button>
+                    <a href="https://github.com/oyinda9">
+                    <button className="hero--section--description-btn-github">Visit My GitHub</button></a>
+                        
 
-                </div>
-
-                <div className="about-me-skills">
-
-                    {/* <button>Hmtl</button>
-                    <button>CSS</button>
-                    <button>JAVASCRIPT</button>
-                    <button>JAVA</button>
-                    <button>REACT</button>
-                    <button>DJANGO</button>
-                    <button>WORDPRESS</button> */}
-
-                    
 
                 </div>
             </div>
